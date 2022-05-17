@@ -11,6 +11,5 @@
             "matches": ["https://www.google.com/maps/*"],
             "js": ["printer.js"]
         }
-    ],
-    "host_permissions": ["https://www.google.com/maps/*"]
+    ]
 }
