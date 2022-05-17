@@ -6,6 +6,12 @@ Printing Google Maps sucks.
 
 This extension makes it better.
 
+## Problem
+
+Currently there is an issue with Google Maps printing that causes the map to be split out along multiple pages, with much of the route not even appearing in the final printed result.
+Furthermore, directions are haphazardly interleaved.
+
+With this extension, it is possible to print the map on its own page, and the directions on accompanying pages.
 
 ## Instructions
 
