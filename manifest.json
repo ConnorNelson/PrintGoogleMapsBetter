@@ -3,6 +3,9 @@
     "description": "Print Google Maps Better!",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+        "128": "icon128.png"
+    },
     "content_scripts": [
         {
             "matches": ["https://www.google.com/maps/*"],
