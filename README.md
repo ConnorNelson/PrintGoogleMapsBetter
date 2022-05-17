@@ -1,5 +1,7 @@
 # Print Google Maps Better
 
+![icon](./icon128.png)
+
 Printing Google Maps sucks.
 
 This extension makes it better.
