@@ -56,8 +56,6 @@ document.addEventListener("keypress", async (event) => {
     content.querySelectorAll("div").forEach((div) => {
         if (directions)
             return;
-        if (window.getComputedStyle(div).position != "absolute")
-            return;
         div.querySelectorAll("span").forEach((span) => {
             if (directions)
                 return;
@@ -69,8 +67,10 @@ document.addEventListener("keypress", async (event) => {
     });
 
     directions.remove();
-    directions.style.position = "static";
     directions.style.width = width;
+    directions.querySelectorAll("div").forEach((div) => {
+        div.style.boxShadow = "none";
+    });
     body.appendChild(directions);
     await sleep();
 
